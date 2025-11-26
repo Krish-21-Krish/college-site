@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry – Dr SNSRCAS</title>
+    <link rel="icon" href="sns-arts-logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Enquiry active -->
+    <!-- ...header code... -->
+
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-title">Enquiry Form</h1>
+            <p class="page-subtitle">
+                Share your details and queries. Our team will get back to you.
+            </p>
+        </div>
+    </section>
+
+    <section class="enquiry-section">
+        <div class="container">
+            <form class="enquiry-form" id="enquiryForm">
+                <div class="form-group">
+                    <label for="enqName">Name</label>
+                    <input type="text" id="enqName" required>
+                </div>
+                <div class="form-group">
+                    <label for="enqEmail">Email</label>
+                    <input type="email" id="enqEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="enqPhone">Phone</label>
+                    <input type="tel" id="enqPhone" required>
+                </div>
+                <div class="form-group">
+                    <label for="enqProgram">Program Interested</label>
+                    <select id="enqProgram" required>
+                        <option value="">Select</option>
+                        <option value="ug">Undergraduate (UG)</option>
+                        <option value="pg">Postgraduate (PG)</option>
+                        <option value="research">Research</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="enqDept">Department</label>
+                    <select id="enqDept" required>
+                        <option value="">Select</option>
+                        <option value="cs">Computer Science</option>
+                        <option value="commerce">Commerce</option>
+                        <option value="management">Management</option>
+                        <option value="science">Science</option>
+                        <option value="others">Others</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="enqMessage">Message</label>
+                    <textarea id="enqMessage" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit Enquiry</button>
+                <p class="enquiry-status" id="enquiryStatus"></p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- copy footer -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
