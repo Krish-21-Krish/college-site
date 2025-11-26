@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departments – Dr SNSRCAS</title>
+    <link rel="icon" href="sns-arts-logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Departments active -->
+    <!-- ...header code... -->
+
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-title">Departments</h1>
+            <p class="page-subtitle">
+                Explore our departments, their programmes, faculty achievements, and events.
+            </p>
+        </div>
+    </section>
+
+    <section class="dept-selector-section">
+        <div class="container">
+            <label for="deptSelect" class="dept-label">Select Department:</label>
+            <select id="deptSelect" class="dept-select">
+                <option value="cs">Computer Science</option>
+                <option value="commerce">Commerce</option>
+                <option value="management">Management</option>
+                <option value="languages">Languages</option>
+                <option value="science">Science</option>
+            </select>
+        </div>
+    </section>
+
+    <section class="dept-content">
+        <div class="container">
+
+            <!-- Example: Computer Science section -->
+            <div class="dept-block" id="dept-cs">
+                <h2 id="cs" class="section-title">Department of Computer Science</h2>
+
+                <div class="dept-brochure">
+                    <h3>Department Brochure</h3>
+                    <p>Get a detailed overview of the department, curriculum, and facilities.</p>
+                    <a href="brochure-cs.pdf" class="btn btn-primary" target="_blank">Download Brochure</a>
+                </div>
+
+                <div class="dept-flex">
+                    <div class="dept-panel">
+                        <h3>Staff Achievements</h3>
+                        <ul class="dept-list">
+                            <li>Faculty published papers in reputed journals.</li>
+                            <li>Recognitions for innovative teaching practices.</li>
+                            <li>Participation in international conferences.</li>
+                        </ul>
+                    </div>
+                    <div class="dept-panel">
+                        <h3>Department Events</h3>
+                        <ul class="dept-list">
+                            <li>Annual Tech Symposium with student projects and workshops.</li>
+                            <li>Guest lectures by industry experts.</li>
+                            <li>Hackathons and coding competitions.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Commerce (placeholder) -->
+            <div class="dept-block" id="dept-commerce">
+                <h2 id="commerce" class="section-title">Department of Commerce</h2>
+
+                <div class="dept-brochure">
+                    <h3>Department Brochure</h3>
+                    <a href="brochure-commerce.pdf" class="btn btn-primary" target="_blank">Download Brochure</a>
+                </div>
+
+                <div class="dept-flex">
+                    <div class="dept-panel">
+                        <h3>Staff Achievements</h3>
+                        <ul class="dept-list">
+                            <li>Research publications in finance and taxation.</li>
+                        </ul>
+                    </div>
+                    <div class="dept-panel">
+                        <h3>Department Events</h3>
+                        <ul class="dept-list">
+                            <li>Commerce conclaves and industry interactions.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add similar blocks for management, languages, science -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- copy footer -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
